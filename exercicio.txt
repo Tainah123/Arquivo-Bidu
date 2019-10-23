@@ -1,0 +1,30 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace somadoisnumeros
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int num1, num2, result;
+
+            Console.Write("Informe o primeiro número: ");
+            num1 = int.Parse(Console.ReadLine());
+
+            Console.Write("Informe o segundo número: ");
+            num2 = int.Parse(Console.ReadLine());
+
+            result = num1 + num2;
+
+            Console.WriteLine("O resultado da soma é => " + result);
+
+            Console.ReadKey();
+            
+        }
+    }
+}
+
